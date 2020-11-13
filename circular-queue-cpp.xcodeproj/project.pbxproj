@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67E66EF3255E2BF800524235 /* circularqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E66EF2255E2BF800524235 /* circularqueue.cpp */; };
+		67E66EFD255E2E8B00524235 /* testcircularqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67E66EFC255E2E8B00524235 /* testcircularqueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		67E66EEF255E2BF800524235 /* circular-queue-cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "circular-queue-cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E66EF2255E2BF800524235 /* circularqueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circularqueue.cpp; sourceTree = "<group>"; };
 		67E66EFA255E2C5D00524235 /* circularqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = circularqueue.h; sourceTree = "<group>"; };
+		67E66EFC255E2E8B00524235 /* testcircularqueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testcircularqueue.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				67E66EF2255E2BF800524235 /* circularqueue.cpp */,
 				67E66EFA255E2C5D00524235 /* circularqueue.h */,
+				67E66EFC255E2E8B00524235 /* testcircularqueue.cpp */,
 			);
 			path = "circular-queue-cpp";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E66EFD255E2E8B00524235 /* testcircularqueue.cpp in Sources */,
 				67E66EF3255E2BF800524235 /* circularqueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
